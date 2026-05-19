@@ -590,7 +590,6 @@ body > * { position: relative; z-index: 1; }
 @media (max-width: 720px) {
   body { gap: clamp(2rem, 5vh, 3.5rem); }
 
-  .top-right { width: 100%; justify-content: space-between; }
   .clock .clock-tz { display: none; }
 
   .name { font-size: clamp(4.2rem, 22vw, 9rem); letter-spacing: -0.04em; }
