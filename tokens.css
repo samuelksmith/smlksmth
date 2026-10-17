@@ -1,0 +1,26 @@
+:root {
+  --color-paper: oklch(93.35% 0.0186 86.88);
+  --color-ink: oklch(21.16% 0.009 76.08);
+  --color-muted: oklch(50.17% 0.0197 71.09);
+  --color-rule: oklch(84.42% 0.0256 86.87);
+  --color-accent: oklch(53% 0.1607 38.43);
+  --color-accent-hover: oklch(43.5% 0.126 37.2);
+  --color-focus: var(--color-accent);
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Instrument Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4rem;
+  --space-3xl: 5rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: clamp(1.125rem, 2.4vw, 1.5rem);
+  --text-heading: clamp(1.75rem, 3.8vw, 2.25rem);
+  --text-display: clamp(2.5rem, 7.5vw, 4rem);
+  --rule-width: 1px;
+}
